@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #758C4B;
+    width: 100%;
+}
+
+body {
+    background-color: white; 
+    width: 100%;
+}
+
+
+/*HEADER*/
+
+
+.bg-image {
+    background-image: url("brudeslor%20(1).jpeg");
+    filter: blur(5px);
+    height: 100%; 
+    padding: 120px 0px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+    
+}
+
+.bg-text {
+ 
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+header { 
+    text-align: center;
+    background-color: #758C4B; 
+    position: fixed; z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.HvitLogo {
+    background-color: none;
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.tittel {
+    color: white; 
+}
+
+.NavBar {
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #60733E;
+    position: sticky;
+    width: 100%;
+    border-top: solid #404D29;
+    border-bottom: solid #404D29;
+    
+}
+    
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #60733E;
+}
+
+.NavBar li {
+    float: left;
+    position: center; 
+    text-align: center
+}
+
+.NavBar li a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+
+#hjem a{
+    color: white;
+}
+
+#hjem a:hover{
+    color: #B6D975;
+}
+
+
+#OmOss a{
+    color: white;
+}
+
+#OmOss a:hover{
+    color: #B6D975;
+}
+
+#kontaktoss a {
+    color: white;
+} 
+#kontaktoss a:hover{
+    color: #B6D975;
+} 
+
+#blomsterleksikon a{
+    color: #B6D975;
+}
+
+#blomsterleksikon a:hover{
+    color: #B6D975;
+}
+
+#bestill a{
+    color: white;
+}
+
+#bestill a:hover{
+    color: #B6D975;
+}
+
+
+/*MAIN*/
+main {
+    background-color: #758C4B;
+    padding-top: 300px;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+
+
+.leksikon h1{
+    padding-top: 4%;
+    font-size: 30px;
+    font-family: verdana;
+    font-weight: bold;
+    
+}
+#tekst {
+    padding-top: 1.5%;
+    font-family: verdana;
+}
+
+.Bokstavliste {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: verdana;
+}
+
+.Bokstavliste a {
+    color: white;
+    
+}
+
+.Bokstavliste a:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.Bokstavliste li {
+    float: left;
+    position: center; 
+    padding: 2px;   
+    
+}
+
+.ingenting {
+    filter: opacity(50%);
+    color: white;
+}
+
+
+
+/* scroll-margin-top ble nevnt i dette kommentarfeltet: 
+https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
+*/
+#A {
+    scroll-margin-top: 260px; 
+}
+
+#B {
+    scroll-margin-top: 260px; 
+}
+
+#C {
+    scroll-margin-top: 260px; 
+}
+
+#D {
+    scroll-margin-top: 260px; 
+}
+
+#E {
+    scroll-margin-top: 260px;
+    
+}
+
+#F {
+    scroll-margin-top: 260px;
+    
+}
+
+#G {
+    scroll-margin-top: 260px;
+    
+}
+
+#H {
+    scroll-margin-top: 260px;
+    
+}
+
+#I {
+    scroll-margin-top: 260px;
+    
+}
+
+#J {
+    scroll-margin-top: 260px;
+    
+}
+
+#K {
+    scroll-margin-top: 260px;
+    
+}
+
+#L {
+    scroll-margin-top: 260px;
+    
+}
+
+#M {
+    scroll-margin-top: 260px;
+    
+}
+
+#N {
+    scroll-margin-top: 260px;
+    
+}
+
+#O {
+    scroll-margin-top: 260px;
+    
+}
+
+#P {
+    scroll-margin-top: 260px;
+    
+}
+
+#R {
+    scroll-margin-top: 260px;
+    
+}
+
+#S {
+    scroll-margin-top: 260px;
+    
+}
+
+#T {
+    scroll-margin-top: 260px;
+    
+}
+
+#V {
+    scroll-margin-top: 260px;
+    
+}
+
+
+
+.blomst {
+    float: right;
+    width: 30%;
+    padding-right: 5%;
+    padding-top: 300px;
+}
+
+.leksikon {
+    background-color: #758C4B;
+    padding-left: 10%;
+    color: black;
+}
+
+.leksikon h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: antiquarian-scribe, sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.leksikon p {
+    font-family: verdana;
+}
+
+.leksikon li {
+     list-style-type: none;
+    text-align: left;
+    font-family: verdana;
+}
+
+.kilde {
+    padding-top: 5%;
+    font-family: verdana;
+}
+.kilde a{
+    color: black;
+    text-decoration: none;
+}
+
+.kilde a:hover{
+    color: #B6D975;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #758C4B;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: black;
+}
+
+footer h3, ul {
+    text-align: center;
+}
+
+footer li {
+    text-decoration: none;
+    list-style-type: none;
+}
+#nederst {
+    background-color:#758C4B;
+    text-align: center;
+}
+#nederst a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#nederst a:hover {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:800px){
+            .main, .hoyre {
+            width: 100%;
+            }
+        }
+

@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #758C4B;
+    width: 100%;
+}
+
+body {
+    background-color: white; 
+    width: 100%;
+}
+
+
+/*HEADER*/
+
+
+.bg-image {
+    background-image: url("brudeslor%20(1).jpeg");
+    filter: blur(5px);
+    height: 100%; 
+    padding: 120px 0px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+    
+}
+
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+header { 
+    text-align: center;
+    background-color: #758C4B; 
+    position: fixed; z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.HvitLogo {
+    background-color: none;
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.tittel {
+    color: white; 
+}
+
+.NavBar {
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #60733E;
+    position: sticky;
+    width: 100%;
+    border-top: solid #404D29;
+    border-bottom: solid #404D29;
+    
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #60733E;
+}
+
+.NavBar li {
+    float: left;
+    position: center; 
+    text-align: center
+}
+
+.NavBar li a {
+    display: block;
+    color: olive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.NavBar li a:hover {
+   color: orange;  
+}
+
+
+#hjem a{
+    color: white;
+}
+
+#hjem a:hover{
+    color: #B6D975;
+}
+
+
+#OmOss a{
+    color: #B6D975;
+}
+
+#OmOss a:hover{
+    color: #B6D975;
+}
+
+#kontaktoss a {
+    color: white;
+} 
+#kontaktoss a:hover{
+    color: #B6D975;
+} 
+
+#blomsterleksikon a{
+    color: white ;
+}
+
+#blomsterleksikon a:hover{
+    color: #B6D975;
+}
+
+#bestill a{
+    color: white;
+}
+
+#bestill a:hover{
+    color: #B6D975;
+}
+
+
+/*MAIN*/
+
+main {
+    background-color: #758C4B;
+    padding-top: 270px;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.row {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.column h2 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.column img {
+    width: 90%;
+    padding-left: 8%;
+    
+    
+    padding-top: 100px;
+    
+}
+
+.tekst {
+    color: black;
+    line-height: 1.5;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: verdana;
+  
+    
+}
+
+.column q {
+    color: black;
+    line-height: 1.5;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  font-family: verdana;
+}
+
+.column a {
+    color: beige;
+    text-decoration: none;
+}
+
+.column a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.row:after {
+  content: ""; /* Skal det legges til noe her? */
+  display: table;
+  clear: both;
+}
+
+/* Layout som gjør de tre paragrafene responsive. Avsnittene kommer over hverandre, og ikke ved siden av hverandre, hvis man endrer enhet - altså mobil, nettbrett, datamaskin.. */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.blomster {
+    padding: 2%;
+    padding-bottom: 8%;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #758C4B;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+    text-transform: uppercase;
+    padding-bottom: auto;
+    color: black;
+}
+
+footer h3, ul {
+    text-align: center;
+}
+
+footer li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#nederst {
+    background-color: #758C4B;
+    text-align: center;
+}
+#nederst a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#nederst a:hover {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:800px){
+            .main, .hoyre {
+            width: 100%;
+            }
+        }

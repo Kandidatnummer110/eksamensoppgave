@@ -1,0 +1,375 @@
+
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #758C4B;
+    width: 100%;
+}
+
+body {
+    background-color: white; 
+    width: 100%;
+}
+
+
+/*HEADER*/
+
+
+.bg-image {
+    background-image: url("brudeslor%20(1).jpeg");
+    filter: blur(5px);
+    height: 100%; 
+    padding: 120px 0px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+    
+}
+
+.bg-text {
+ 
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+header { 
+    text-align: center;
+    background-color: #758C4B; 
+    position: fixed; z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.HvitLogo {
+    background-color: none;
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.tittel {
+    color: white; 
+}
+
+.NavBar {
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #60733E;
+    position: sticky;
+    width: 100%;
+     border-top: solid #404D29;
+    border-bottom: solid #404D29;
+    
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #60733E;
+}
+
+.NavBar li {
+    float: left;
+    position: center; 
+    text-align: center
+}
+
+.NavBar li a {
+    display: block;
+    color: olive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+
+#hjem a{
+    color: white;
+}
+
+#hjem a:hover{
+    color: #B6D975;
+}
+
+
+#OmOss a{
+    color: white;
+}
+
+#OmOss a:hover{
+    color: #B6D975;
+}
+
+#kontaktoss a {
+    color: white;
+} 
+#kontaktoss a:hover{
+    color: #B6D975;
+} 
+
+#blomsterleksikon a{
+    color: white;
+}
+
+#blomsterleksikon a:hover{
+    color: #B6D975;
+}
+
+#bestill a{
+    color: #B6D975;
+}
+
+#bestill a:hover{
+    color: #B6D975;
+}
+
+
+/*MAIN*/
+main {
+    background-color: #758C4B;
+    padding-top: 270px;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 3%;
+}
+
+main p{
+    color: black;
+    line-height: 1.5;
+    font-family: verdana;
+}
+
+ 
+.Bestill {
+    background-color: olive;
+    border: solid beige;
+    text-decoration-color: beige; 
+}
+
+
+.row {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.column a {
+    color: white;
+    text-decoration: none;
+}
+
+.column a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.row:after {
+  content: ""; /* Skal det legges til noe her? */
+  display: table;
+  clear: both;
+}
+
+/* Layout som gjør de tre paragrafene responsive. Avsnittene kommer over hverandre, og ikke ved siden av hverandre, hvis man endrer enhet - altså mobil, nettbrett, datamaskin.. */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.column h1 {
+    padding-top: 4%;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: verdana;
+    font-weight: bold;
+  
+}
+
+.tekst {
+    padding-bottom: 30px;
+    font-family: verdana;
+  
+    
+}
+
+.form-container {
+    padding-top: 40px;
+    background-color: #60733E;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    font-family: verdana;
+  
+}
+
+.form-container h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 27px;
+    font-family: verdana;
+  
+}
+
+
+.form-container li input{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: verdana;
+  
+}
+
+.form-container ul {
+    list-style-type: none;
+    font-family: verdana;
+  
+}
+
+
+#glemt a{
+    color: black;
+    font-family: verdana;
+  
+}
+
+#glemt a:hover{
+    color: #B6D975;
+    font-family: verdana;
+  
+}
+
+
+#ny a{
+    color: black;
+}
+
+#ny a:hover{
+    color:#B6D975;
+}
+
+.container_Galleri {
+    text-align: right;
+    width:100%;
+    padding-top: 12%;
+    font-family: verdana;
+  
+}
+
+
+.carousel {
+    
+    width: 100%;
+}
+
+
+.link_leksikon p {
+    color: black;
+    line-height: 1.5;
+    padding-top: 3%;
+    font-family: verdana;
+  
+}
+
+.link_leksikon a{
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+  
+}
+
+.link_leksikon a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #B6D975;
+    font-family: verdana;
+  
+}
+
+/*FOOTER*/
+
+footer {
+    background-color:#758C4B;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: black;
+}
+
+footer h3, ul{
+    text-align: center;
+}
+
+footer li {
+    text-decoration: none;
+    list-style-type: none;
+}
+#nederst {
+    background-color: #758C4B;
+    text-align: center;
+}
+#nederst a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#nederst a:hover {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:800px){
+            .main, .hoyre {
+            width: 100%;
+            }
+        }

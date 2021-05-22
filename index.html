@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <title>Spiren Gartneri</title>
+        <!-- utf-8-->
+        <meta charset="utf-8">
+        <!-- kobler css-filen med html-filen, som gjør at jeg kan style nettsiden min-->
+        <link rel="stylesheet" href="style.css">
+        
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!-- Bootstrap jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript-->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- bootstrap responsive metatag -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+        <!-- responsive web-page-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        
+        <!-- adobe font-family -->
+        <link rel="stylesheet" href="https://use.typekit.net/cst7qwb.css">
+    </head>
+    
+    
+    <body>
+        <header style="z-index:10">  
+            <!-- Fulgte denne oppskriften for å lage den øverste delen av headeren: https://www.w3schools.com/howto/howto_css_blurred_background.asp 
+
+            Den største forskjellen fra oppskriften er at jeg har fjernet bakgrunnen til teksten.
+            -->
+            <div class="bg-image"></div>
+            
+            <div class="bg-text"> 
+                 <a href="index.html" class="HvitLogo"> <img src="logo_hvit.png" width="50px" title="Spiren Gartneri" Alt="Logoen til Spiren Gartneri"></a>   
+            <section class="tittel">
+                <h1>Spiren Gartneri</h1>
+                <q><i>Si det med blomster </i></q>
+            </section>
+            </div>
+           
+            
+            <section class="NavBar">
+                <nav>
+                    <ul class="main_navbar">
+                        <li id="hjem"><a href="index.html">Hjem</a></li>
+                        <li id="OmOss"><a href="OmOss.html">Om oss</a></li>
+                        <li id="blomsterleksikon"><a href="blomsterleksikon.html">Blomsterleksikon</a></li>
+                        <li id="bestill"><a href="bestill.html">Bestill blomster</a></li>
+                        <li id="kontaktoss"><a href="#kontakt">Kontakt oss</a></li>
+                    </ul>
+                </nav>
+            </section> 
+        </header>  
+    
+        <main>
+            <div class="row1">
+                <!-- to paragrafer som egentlig er sidestilte, men som nå er responsive. Inspirasjon hentet fra w3schools.com: 
+                https://www.w3schools.com/howto/howto_css_three_columns.asp
+                -->
+                <!-- klikkbare bilder og knapper. 
+                    oppskrift funnnet her:  https://www.w3schools.com/howto/howto_css_button_on_image.asp
+
+                    Har lagt til blur på bildene bak. Endret det slik at ikke bare knappene er klikkbare, men også bildet.  
+                -->
+                <div class="column">
+                    <div class="container1">
+                    <a href="#"><img src="blomst_germini.jpeg" width="300">
+                    <button class="btn">Våre blomster</button>
+                    </a>
+                    </div>
+                    <br>
+                    <div class="container2">
+                    <a href="#">
+                    <img src="brudeslor.jpeg" width="300">
+                    <button class="btn">Våre planter</button>
+                    </a>
+                </div>
+                </div>
+                <div class="column">
+                       <section class="hoyre">
+                        <article class="apningstider">
+                            <h3>Våre åpningstider:</h3>
+                            <p>Man-Fre: 11.00-17.00</p>
+                            <p>Lør-Søn: 10.00-17.00</p>
+                            <p><i>Om våren fyller vi våre drivhus med sommerblomster og utvider våre åpningstider til 19.00.</i></p>
+                            <article class= "kart">
+                                <h3>Kart over området: </h3>
+                                <img src="kart.png" alt="Kart over gartneriet" title="Området til Spiren Gartneri" width="100%">
+                            </article>
+                            <article class="SoMe">
+                                <h3>Følg oss på sosiale medier:</h3>
+                                <!-- instagram- og facebook-logoen er hentet fra pixabay. Tilhører egentlig brukeren "kirstyfields"-->
+                                <a href="https://www.instagram.com" target="_blank"><img src="instagram_logo_pixabay.png" width="100px" alt="Følg Spiren Gartneri på Instagram" title="Spiren Gartneri Instagram"></a>
+                                <a href="https://www.facebook.com" target="_blank"><img src="facebook_logo_pixabay.png"  width="100px" alt="Følg Spiren Gartneri på Facebook" title="Spiren Gartneri Facebook"></a>
+                            </article>
+                        </article>
+                    </section>
+                </div>
+                
+            </div>
+        </main>
+        
+        <footer>
+            
+                <h3>Kontakt oss:</h3>
+                <ul id="kontakt">
+                <li>Telefon: +47 95 34 46 41</li>
+                <li>E-Mail: spiren@gartneri.no</li>
+                <li>Adresse: Tingveien 4, 1440 Drøbak</li>
+                </ul>
+            
+            <section id="nederst">
+            <img src="svart%20logo%20med%20tekst.png"  width="100px" title="Spiren Gartneri" Alt="Logoen til Spiren Gartneri">
+             <p><a href="index.html">&copy; 2020 </a></p>
+            </section>
+        </footer>
+        
+        <!-- JavaScript for Bootstrap-elementer-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+        
+        
+    </body>
+</html>
